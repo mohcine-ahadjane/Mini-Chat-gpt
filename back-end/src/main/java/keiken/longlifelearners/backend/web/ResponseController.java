@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @AllArgsConstructor
 @RequestMapping("/api")
 @CrossOrigin("*")
-public class ResponceController {
+public class ResponseController {
     private ResponseService responseService;
     @PostMapping("/request")
     public Response sendRequest(@RequestBody Prompt prompt){
